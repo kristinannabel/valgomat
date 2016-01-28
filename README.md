@@ -1,3 +1,4 @@
-## zf5_project
+## Valgomat 2016
 
-(place your readme here)
+A prototype of the API for an valgomat. 
+This is not a finished product, just a proof-of-concept
