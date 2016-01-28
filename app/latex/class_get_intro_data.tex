@@ -1,0 +1,69 @@
+\hypertarget{class_get_intro_data}{}\section{Get\+Intro\+Data Class Reference}
+\label{class_get_intro_data}\index{Get\+Intro\+Data@{Get\+Intro\+Data}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_get_intro_data_a7256274608fd5d3e0fe418fabd40aa69}{get\+Age\+Groups} ()
+\item 
+static \hyperlink{class_get_intro_data_a9c7af477e746a702c5f022caf8dd03d4}{get\+Parties} ()
+\item 
+static \hyperlink{class_get_intro_data_a95f538699835530a711ecffca4a67a29}{get\+Counties} ()
+\item 
+static \hyperlink{class_get_intro_data_a0c16ee6e8504dbeaaf1b99d812a0750c}{get\+Districts} (\$county\+Id)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A class for getting the introductionary data from the database Using P\+DO to fetch the data 
+
+\subsection{Member Function Documentation}
+\index{Get\+Intro\+Data@{Get\+Intro\+Data}!get\+Age\+Groups@{get\+Age\+Groups}}
+\index{get\+Age\+Groups@{get\+Age\+Groups}!Get\+Intro\+Data@{Get\+Intro\+Data}}
+\subsubsection[{\texorpdfstring{get\+Age\+Groups()}{getAgeGroups()}}]{\setlength{\rightskip}{0pt plus 5cm}static Get\+Intro\+Data\+::get\+Age\+Groups (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_get_intro_data_a7256274608fd5d3e0fe418fabd40aa69}{}\label{class_get_intro_data_a7256274608fd5d3e0fe418fabd40aa69}
+A function for getting the age-\/groups from the DB \begin{DoxyReturn}{Returns}
+An associative array of key-\/value pairs containg id and max-\/age in group 
+\end{DoxyReturn}
+\index{Get\+Intro\+Data@{Get\+Intro\+Data}!get\+Counties@{get\+Counties}}
+\index{get\+Counties@{get\+Counties}!Get\+Intro\+Data@{Get\+Intro\+Data}}
+\subsubsection[{\texorpdfstring{get\+Counties()}{getCounties()}}]{\setlength{\rightskip}{0pt plus 5cm}static Get\+Intro\+Data\+::get\+Counties (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_get_intro_data_a95f538699835530a711ecffca4a67a29}{}\label{class_get_intro_data_a95f538699835530a711ecffca4a67a29}
+A function for getting the list of counties from the DB \begin{DoxyReturn}{Returns}
+An associative array of key-\/value pairs containg id and county 
+\end{DoxyReturn}
+\index{Get\+Intro\+Data@{Get\+Intro\+Data}!get\+Districts@{get\+Districts}}
+\index{get\+Districts@{get\+Districts}!Get\+Intro\+Data@{Get\+Intro\+Data}}
+\subsubsection[{\texorpdfstring{get\+Districts(\$county\+Id)}{getDistricts($countyId)}}]{\setlength{\rightskip}{0pt plus 5cm}static Get\+Intro\+Data\+::get\+Districts (
+\begin{DoxyParamCaption}
+\item[{}]{\$county\+Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_get_intro_data_a0c16ee6e8504dbeaaf1b99d812a0750c}{}\label{class_get_intro_data_a0c16ee6e8504dbeaaf1b99d812a0750c}
+A function for getting the list of districts from the selected county 
+\begin{DoxyParams}{Parameters}
+{\em \$county\+Id} & The ID for the selected county \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An associative array of key-\/value pairs containg id and district 
+\end{DoxyReturn}
+\index{Get\+Intro\+Data@{Get\+Intro\+Data}!get\+Parties@{get\+Parties}}
+\index{get\+Parties@{get\+Parties}!Get\+Intro\+Data@{Get\+Intro\+Data}}
+\subsubsection[{\texorpdfstring{get\+Parties()}{getParties()}}]{\setlength{\rightskip}{0pt plus 5cm}static Get\+Intro\+Data\+::get\+Parties (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_get_intro_data_a9c7af477e746a702c5f022caf8dd03d4}{}\label{class_get_intro_data_a9c7af477e746a702c5f022caf8dd03d4}
+A function for getting the political parties from the DB \begin{DoxyReturn}{Returns}
+The result from the DB with all parties 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+api/src/\hyperlink{functions_8php}{functions.\+php}\end{DoxyCompactItemize}

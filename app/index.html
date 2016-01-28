@@ -1,0 +1,170 @@
+<!doctype html>
+<html class="no-js" lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valgomaten</title>
+    <!-- build:css css/libraries.min.css -->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css css/app.min.css -->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app_override.css">
+    <!-- endbuild -->
+    <!-- build:js js/vendor/modernizr.min.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+  		<div id="valgomat_border">
+			<div id="valgomat_content">
+				<div id="volgomat_header">
+					<h2 class="uppercase">Valgomat 2016</h2>
+				</div>
+				<div class="question-count hide">
+					<div class="questionNum">
+						<p>
+						</p>
+					</div>
+					<div class="numOfQuestions">
+						<p>
+						</p>
+					</div>
+				</div>
+				<div class="questions-content hide">
+					<div class="questions">
+						<p class="largefont"></p>
+					</div>
+					<div class="answers">
+						<div class="ans_1 ans">
+							<p>Helt uenig</p>
+						</div>
+						<div class="ans_2 ans">
+							<p>Litt uenig</p>
+						</div>
+						<div class="ans_3 ans">
+							<p>Nøytral</p>
+						</div>
+						<div class="ans_4 ans">
+							<p>Nokså enig</p>
+						</div>
+						<div class="ans_5 ans">
+							<p>Helt enig</p>
+						</div>
+					</div>
+					<div class="weights hide">
+						<p style="font-size: 12px;">Hvor viktig er dette for deg?</p>
+						<div class="button purple tiny weight_1 weight">Ikke viktig</div>
+						<div class="button purple tiny weight_2 weight">Viktig</div>
+						<div class="button purple tiny weight_3 weight">Veldig viktig</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="large-4 columns">
+						<div id="valgomat_intro">
+							<p class="largefont">
+								<strong>Hvilket parti passer for deg?</strong>
+								<br>
+								Velg kjønn for å starte testen.
+							</p>
+							<p>
+								<em>
+									Hvor viktig du angir at hver sak er, er helt avgjørende for hvilket parti du havner på. 
+									Unngå om mulig å svare «nøytral», for et best mulig resultat.
+								</em>
+							</p>
+						</div>
+						<form class="county-form hide">
+							Fylke:
+							<div class="row">
+							</div>
+						</form>
+					</div>
+					<div class="large-8 columns">
+						<form class="district-form hide">
+							Kommune:
+							<div class="row">
+							</div>
+						</form>
+						<div class="row">
+							<div class="large-3 columns">
+								<form class="gender-form">
+					  	  		  <div class="row">
+						   	  		  <div class="large-12 columns">
+					      				  <div class="radio">
+					        				  <input id="gender_male" value="male" type="radio" name="gender">
+					        				  <label for="gender_male" class="largefont"> Mann</label>
+					     	    		  </div>
+			   				   		  </div>
+									  <div class="large-12 columns">
+						  	  	 		  <div class="radio">
+						        	 	 	 <input id="gender_female" value="female" type="radio" name="gender">
+						        	 	 	<label for="gender_female" class="largefont"> Kvinne</label>
+						      	 		  </div>
+						     		  </div>
+						  		  </div>
+							    </form>
+							</div>
+							<div class="large-9 columns">
+								<div class="row">
+									<div class="large-6 columns">
+										<form class="age-form hide">
+											Alder:
+											<div class="row">
+											</div>
+										</form>
+									</div>
+									<div class="large-6 columns">
+										<form class="party-form hide">
+											Stemte ved forrige valg:
+											<div class="row">
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				 </div>
+			 </div>
+
+    <form class="saveAnswers-form hide">
+	</form>
+	<form class="final-form hide">
+	</form>
+
+    <!-- build:js js/vendor/libraries.min.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="bower_components/jquery.cookie/jquery.cookie.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js js/vendor/foundation.min.js -->
+    <script src="bower_components/foundation/js/foundation/foundation.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.abide.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.accordion.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.alert.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.clearing.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.joyride.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.slider.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.tab.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+    <!-- endbuild -->
+    <!-- build:js js/app.min.js -->
+    <script src="js/app.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/functions.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

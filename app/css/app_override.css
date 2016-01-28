@@ -1,0 +1,56 @@
+#valgomat_border{
+	border: 4px solid #862547;
+	margin: 70px 100px;
+}
+#valgomat_content{
+	padding: 40px 70px;
+	min-height: 460px;
+}
+h1.uppercase, h2.uppercase, h3.uppercase, h4.uppercase, h5.uppercase, h6.uppercase {
+    text-transform: uppercase;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto","Helvetica",Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #222222;
+    text-rendering: optimizeLegibility;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+}
+.largefont {
+	font-size: 20px;
+	font-weight: 300;
+}
+.questions {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	min-height: 60px;
+}
+.answers {
+	margin-bottom: 40px;
+}
+.answers, .weights {
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+.answers .ans {
+	cursor: pointer;
+	display: inline-block;
+	width: 19%;
+}
+.questions-size {
+	min-height: 505px !important;
+}
+.question-count, .questionNum, .numOfQuestions {
+	display: inline-block;
+}
